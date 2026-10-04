@@ -116,7 +116,7 @@ io.on('connection', (socket) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('GridPatch Arena Server is Running!');
+    res.send('WORD Arena Server is Running!');
 });
 
 server.listen(PORT, '0.0.0.0', () => {
